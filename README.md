@@ -21,6 +21,9 @@ For development, you will only need Node.js and a node global package, Yarn or n
 
 ## Running the project
 
+    $ cd client
+    $ npm run build
+    $ cd ..
     $ npm start
 
 ## Running the client side
@@ -33,6 +36,6 @@ For development, you will only need Node.js and a node global package, Yarn or n
     $ cd server
     $ npm start
 
-## Simple build for production
+![Alt text](/screenshot1.png?raw=true "Example 1")
 
-    $ npm run build
+![Alt text](/screenshot2.png?raw=true "Example 2")
