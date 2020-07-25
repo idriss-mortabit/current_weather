@@ -1,0 +1,17 @@
+{
+	"name": "current_weather",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"client": "cd client && npm start",
+		"server": "cd server && npm start",
+		"start": "concurrently -kill-others \"npm run server\""
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"concurrently": "^4.1.0"
+	}
+}

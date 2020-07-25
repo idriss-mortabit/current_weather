@@ -1,0 +1,46 @@
+{
+  "name": "current-weather",
+  "version": "1.0.0",
+  "description": "web application for world current weather checking",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "watch": "npm-watch"
+  },
+  "watch": {
+    "build": "/"
+  },
+  "keywords": [
+    "weather",
+    "nodejs",
+    "reactjs",
+    "web",
+    "application"
+  ],
+  "author": "Idriss Mortabit",
+  "license": "ISC",
+  "dependencies": {
+    "@testing-library/react": "^8.0.1",
+    "axios": "^0.19.2",
+    "create-react-app": "^1.4.3",
+    "jest-dom": "^3.5.0",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "1.0.17",
+    "save": "^2.3.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "enzyme": "^3.2.0",
+    "enzyme-adapter-react-16": "^1.1.0",
+    "expect": "^21.2.1",
+    "jest-junit": "^3.3.0",
+    "npm-watch": "^0.6.0",
+    "react-test-renderer": "^16.2.0"
+  }
+}
